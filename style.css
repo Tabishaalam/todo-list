@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont1{
+    width: 100%;
+    height:100vh;
+    background-image: url(/img/photo-1490237014491-822aee911b99.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.cont1 h1{
+    color:teal;
+}
+.cont1 input{
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 10%;
+}
+.cont1 button{
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    height: 4vh;
+    width:20% ;
+}
+.cont1 .andarmaal{
+    border-radius: 25px;
+    width:20%;
+    height: 40vh;
+    border: 2px solid black;
+    background:transparent;
+    border-radius:8px;
+}
